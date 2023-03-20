@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(248, 240, 240);
+}
+
+.container{
+    width:100%;
+    float:left;
+    
+
+}
+
+.innercontainer{
+    width:1200px;
+    margin: 0 auto;
+    
+    
+}
+
+.header{
+    width:100%;
+    float:left;
+    
+    background-color: black;
+
+}
+
+.leftnav{
+    width:50%;
+    float:left;
+    
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.navlogo{
+    width:20%;
+    float:left;
+}
+
+.navlogoimage{
+    width:100%;
+    float:left;
+}
+
+.leftnavlink{
+    width:80%;
+    float:left;
+    padding:20px;
+    word-spacing: 20px;
+
+}
+
+.leftnavlink a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.rightnav{
+    width:50%;
+    float:left;
+    
+    
+    text-align: right;
+    padding-top:25px;
+    padding-bottom:20px;
+    word-spacing: 20px;
+}
+
+.rightnav a{
+    text-decoration: none;
+    color:white;
+    padding:20px;
+}
+
+.detailsbox{
+    width:50%;
+    margin:0 auto;
+    
+    
+    text-align: center;
+    padding-top:20px;
+}
+
+.heading{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+p{
+    justify-content: center;
+}
+
+.artistcardbox{
+    width:100%;
+    float:left;
+    
+    
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+
+.artistcard{
+    width:24%;
+    float:left;
+    
+    
+    margin-left:15px;
+}
+
+.firstbox{
+    margin-left:0;
+}
+
+.lastbox{
+    float:right;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    padding:10px 10px;
+}
+
+.profession{
+    text-align: center;
+    line-height: 1.5;
+    padding:10px 10px;
+}
+
+@media screen and (max-width:1200px){
+        .innercontainer{
+            width:100%;
+        }
+
+        .navlogo{
+            padding-top:10px;
+        }
+
+        .artistcard{
+            margin-left:8px;
+        }
+        
+        .lastbox{
+            float:left
+        }
+}
+
+@media screen and (max-width:768px){
+    .innercontainer{
+        width:100%;
+    }
+
+    .leftnav{
+        width:100%;
+    }
+
+    .rightnav{
+        display:none;
+    }
+
+    .artistcard{
+        width:100%;
+        margin-top:10px;
+    }
+
+    .detailsbox{
+        text-align:left;
+        padding:10px;
+        background-color: red;
+    
+    }
+
+}
